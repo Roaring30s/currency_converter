@@ -10,6 +10,6 @@ The Rust Currency Exchange Converter is a simple command-line tool that allows y
 
 3. To run the converter, you can use the following example commands:
 
-cargo run usd
-cargo run aed
+cargo run usd <br />
+cargo run aed <br />
 cargo run cop
