@@ -3,7 +3,7 @@ use std::env;
 use dotenv::dotenv;
 use serde_json::{Value};
 
-pub const CURRENCIES: [&str; 3] = ["COP", "EUR", "AED"];
+pub const CURRENCIES: [&str; 3] = ["COP", "USD", "AED"];
 const FOREX_ENDPOINT: &str = "http://data.fixer.io/api/latest?access_key=";
 
 fn obtain_forex_key() -> String {
