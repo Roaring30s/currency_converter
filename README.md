@@ -8,6 +8,8 @@ The Rust Currency Exchange Converter is a simple command-line tool that allows y
 
 2. Create a `.env` file in the root directory of the project and add your API key as an environment variable named `FOREX_KEY`. For example: FOREX_KEY=your_api_key_here
 
-3. To run the converter, you can use the following command:
+3. To run the converter, you can use the following example commands:
 
-cargo run <currency>
+cargo run usd
+cargo run aed
+cargo run cop
